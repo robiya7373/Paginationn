@@ -1,0 +1,45 @@
+.text{
+    text-align: center;
+    font-weight: 500px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.page-link{
+  
+    color: rgb(0, 0, 0);
+  padding: 5px 8px;
+  align-items: center;
+  justify-content: center;
+      font-weight: 900;
+    font-size: 20px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.list-group{
+    display: grid;
+    grid-template-columns:   1fr 1fr 1fr 1fr 1fr;
+    color: rgb(0, 0, 0);
+  
+}
+
+
+.list-group-item{
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
